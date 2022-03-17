@@ -1,0 +1,266 @@
+body{
+    background-image: url("./sahara.jpeg");
+    background-position-x: center;
+    backface-visibility: visible;
+    background-size:84rem;
+
+    
+}
+nav
+{
+  display:flex;
+  justify-content: space-evenly;
+  margin-top:3em;
+
+}
+
+.logo img
+{
+    width:50px;
+    height: 50px;
+    margin-left:2em;
+    
+}
+.menu-image img
+{
+     width:38px;
+     height:38px;
+     margin-left:-3em;
+     margin-top:-1ch;
+
+}
+a
+{
+    text-decoration: none;
+    color:white;
+    margin-left:4em;
+    margin-top:2em;
+}
+.menu-item{
+
+    margin-left:28em;
+}
+.container
+{
+   height:550px;
+   width:690px;
+   margin-left:36em;
+   margin-top:-23em;
+   display: flex;
+   flex-wrap: wrap;
+   text-align:center;
+   color:white;
+
+
+}
+.nil
+{
+    display:inline;
+    height:550px;
+    width:629px;
+    background-color:yellow;
+    margin-top:3em;
+    
+
+}
+.text-container
+{
+   
+    margin-top:5em;
+    
+}
+h1
+{
+    color:white;
+    font-size:80px;
+    margin-left:1ex;
+    
+}
+.item1
+ {
+     height:250px;
+     width:250px;
+     border:1px black;
+     background-color:white;
+     margin-left:4em;
+     margin-top:1ch;
+     border-radius:16px;
+     background-image: url("./desertcamel.png");
+     background-size:16rem;
+     transition-duration:1s;
+     transition-property:all;
+
+     
+}
+     
+
+
+.item1:hover
+{
+   transform:translateY(-20px);
+}
+.item2
+{
+    height:250px;
+    width:250px;
+    border:1px black;
+    background-color:white;
+    margin-left:4em;
+    margin-top:1ch;
+    border-radius:16px;
+    background-image: url("./bagabat.jpeg");  
+    background-size:16rem;
+    transition-duration:1s;
+    transition-property:all;
+    color:white;
+}
+.item2:hover
+{
+    transform:translateY(-20px);
+}
+.item3
+{
+    height:250px;
+    width:250px;
+    border:1px black;
+    background-color:white;
+    margin-left:4em;
+    margin-top:1ch;
+    border-radius:16px;
+    background-image: url("./Pyramid.jpeg");  
+    background-size:16rem; 
+    transition-duration:1s;
+    transition-property:all;
+}
+.item3:hover
+{
+    transform:translateY(-20px);
+}
+.item4
+{
+height:250px;
+    width:250px;
+    border:1px black;
+    background-color:white;
+    margin-left:4em;
+    margin-top:1ch;
+    border-radius:16px;
+    background-image: url("./kalahari.jpeg");  
+    background-size:16rem;
+    transition-duration:1s;
+    transition-property:all;
+}
+.item4:hover
+{
+    transform:translateY(-20px);
+}
+.b
+{
+    color:white;
+    margin-left:2em;
+}
+button
+{
+    margin-left:2em;
+    margin-top:4em;
+    width:13em;
+    height:4em;
+    border-radius:27px;
+    border:none;
+}
+
+
+
+@media (min-width:450px) and (max-width:846px)
+{
+body 
+{
+    user-zoom: 100%;
+}
+.container
+{
+    display:block;
+    margin-left:7em;
+    margin-top:3em;
+
+}
+h1
+{
+    font-size:32px;
+    margin-left:1ex;
+}
+.item1{
+    width:388px;
+    height:170px;
+    background-size:35rem;
+    background-position:center;
+    margin-top:2em;
+
+    
+}
+.item2{
+    width:388px;
+    height:170px;
+    background-size:25rem;
+    background-position:center;
+    margin-top:2em;
+}
+.item3{
+    width:388px;
+    height:170px;
+    background-size:25rem;
+    background-position:center;
+    margin-top:2em;
+
+}
+.item4{
+    width:388px;
+    height:170px;
+    background-size:24rem;
+    background-position-y: center;
+    background-position:center;
+    margin-top:2em;
+
+
+}
+
+nav
+{
+    display:flex;
+    margin-top:1em;
+    justify-content: space-around;
+}
+.menu-item
+{
+    display:flex;
+    margin-left:40em;
+    font-size:12px;
+    margin-top:-2em;
+
+}
+.logo img
+{
+    width:35px;
+    height:35px;
+    margin-left:1rem;
+}
+.menu-image img
+{
+    height:25px;
+    width:25px;
+    margin-left:1em;
+
+}
+.b{
+    font-size:14px;
+    margin-left:1ex;
+}
+button 
+{
+    font-size:7px;
+}
+
+} 
+
+
+
